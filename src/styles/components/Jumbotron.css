@@ -1,0 +1,12 @@
+div .bg-jumbotron {
+  background-image: url("../../assets/img/jumbotron.png");
+  height: 95vh;
+  background-position: 50% 70%;
+  background-size: cover;
+  background-repeat: no-repeat;
+  gap: 10px;
+}
+
+div .jumbotron-icon {
+  width: 400px;
+}

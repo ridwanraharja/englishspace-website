@@ -1,0 +1,15 @@
+.container-about {
+  height: 100vh;
+  margin: 60px 40px 20px;
+}
+
+.container-about .bg-about {
+  background-image: url("../../assets/img/about.png");
+
+  background-position: 50% 10%;
+  background-size: cover;
+  background-repeat: no-repeat;
+  gap: 10px;
+  height: 100%;
+  padding: 0px 8%;
+}
