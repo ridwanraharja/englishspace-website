@@ -18,3 +18,57 @@
   background-color: #312357;
   color: white;
 }
+
+.img-event-21day {
+  width: 300px;
+}
+
+@media (max-width: 992px) {
+}
+
+@media (max-width: 768px) {
+}
+
+@media (max-width: 576px) {
+  .img-event-21day {
+    width: 300px;
+  }
+
+  .card-bd ul {
+    visibility: hidden;
+    padding-top: 10px;
+    font-size: 10px;
+    font-family: "metropolis";
+  }
+  .card-bd h6 {
+    font-weight: bold;
+    font-size: 12px;
+  }
+  .card-bd h5 {
+    font-weight: bold;
+    font-size: 18px;
+    text-transform: capitalize;
+  }
+}
+
+@media (max-width: 350px) {
+  .img-event-21day {
+    width: 200px;
+  }
+
+  .card-bd ul {
+    visibility: hidden;
+    padding-top: 10px;
+    font-size: 10px;
+    font-family: "metropolis";
+  }
+  .card-bd h6 {
+    font-weight: bold;
+    font-size: 12px;
+  }
+  .card-bd h5 {
+    font-weight: bold;
+    font-size: 18px;
+    text-transform: capitalize;
+  }
+}

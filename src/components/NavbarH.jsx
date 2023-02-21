@@ -14,14 +14,14 @@ import NavDropdown from "react-bootstrap/NavDropdown";
 import { Button } from "react-bootstrap";
 import { useLocation } from "react-router-dom";
 
-const NavbarC = () => {
+const NavbarH = () => {
   // const location = useLocation().pathname;
   // console.log(location);
 
   return (
     <Navbar bg="light" expand="lg" sticky="top">
       <Container>
-        <Links to="/">
+        <Link to="home" smooth={true} offset={-35} duration={1}>
           <Navbar>
             <img
               src={logo}
@@ -30,22 +30,22 @@ const NavbarC = () => {
               alt="React Bootstrap logo"
             />
           </Navbar>
-        </Links>
+        </Link>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav" className="justify-content-end">
           <Nav className="nav nav-pills nav-justified">
-            <Links to="/">
+            <Link to="home" smooth={true} offset={-35} duration={1}>
               <Nav className="navbar-link nav-item nav-link">Home</Nav>
-            </Links>
-            <Links to="/">
+            </Link>
+            <Link to="about" smooth={true} offset={-112} duration={1}>
               <Nav className="navbar-link nav-item nav-link">About</Nav>
-            </Links>
-            <Links to="/">
+            </Link>
+            <Link to="profile" smooth={true} offset={-70} duration={1}>
               <Nav className="navbar-link nav-item nav-link">Profile</Nav>
-            </Links>
-            <Links to="/">
+            </Link>
+            <Link to="event" smooth={true} offset={-60} duration={1}>
               <Nav className="navbar-link nav-item nav-link">Event</Nav>
-            </Links>
+            </Link>
             <Links to="/careers">
               <Button variant="primary" className="btn-purple w-100">
                 Careers
@@ -58,4 +58,4 @@ const NavbarC = () => {
   );
 };
 
-export default NavbarC;
+export default NavbarH;

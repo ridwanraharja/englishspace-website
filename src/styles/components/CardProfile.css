@@ -1,6 +1,5 @@
 .card-team-profile {
   border-radius: 20px;
-  margin: 30px auto;
   box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px,
     rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
   width: 300px;
@@ -61,11 +60,26 @@
   margin-top: -15px;
 }
 
-@media screen and (max-width: 991px) {
-  .card-team-profile {
-    width: auto;
-  }
+@media (max-width: 992px) {
+}
+
+@media (max-width: 768px) {
+}
+
+@media (max-width: 576px) {
   .card-bd ul {
-    margin-top: 15px;
+    visibility: hidden;
+    padding-top: 10px;
+    font-size: 10px;
+    font-family: "metropolis";
+  }
+  .card-bd h6 {
+    font-weight: bold;
+    font-size: 12px;
+  }
+  .card-bd h5 {
+    font-weight: bold;
+    font-size: 18px;
+    text-transform: capitalize;
   }
 }

@@ -1,11 +1,13 @@
 import React from "react";
 import "../styles/components/CardProfile.css";
 
+import { AiFillInstagram } from "react-icons/ai";
+
 const CardProfile = (props) => {
   const sosmed = `https://www.instagram.com/${props.instagram}/`;
   return (
-    <div className="col-lg-4">
-      <div className="card card-team-profile">
+    <div>
+      <div className=" card card-team-profile">
         <img
           src={props.img}
           className="card-img-top rounded-circle"
@@ -26,7 +28,7 @@ const CardProfile = (props) => {
               target="_blank"
               rel="noreferrer noopener"
             >
-              <i className="fa fa-instagram"></i>
+              <AiFillInstagram className="icon-ig" />
             </a>
           </div>
         </div>

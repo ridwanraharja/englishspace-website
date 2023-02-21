@@ -7,16 +7,16 @@ const Visi = () => {
       <div className="container">
         <div className="row text-black">
           <div className="vision col-md-6 text-center">
-            <h2 className="text-center mb-3">Vision</h2>
+            <h1 className="h1-vision text-center mb-3">Vision</h1>
             <div className="bars mb-3"></div>
-            <p>
-              To become a world-className company that can facilitate the
-              learning needs of students through the best programs and methods
-              based on the science of self-development.
+            <p className="p-vision">
+              To become a world-class company that can facilitate the learning
+              needs of students through the best programs and methods based on
+              the science of self-development.
             </p>
           </div>
           <div className="mission col-md-6">
-            <h2 className="text-center mb-3">Mission</h2>
+            <h1 className="h1-vision text-center mb-3">Mission</h1>
             <div className="bars mb-3"></div>
             <ol className="mission-ol text-start">
               <li>

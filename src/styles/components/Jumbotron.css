@@ -1,4 +1,6 @@
 div .bg-jumbotron {
+  height: 95vh;
+  width: 100%;
   background-image: url("../../assets/img/jumbotron.png");
   height: 95vh;
   background-position: 50% 70%;
@@ -9,4 +11,10 @@ div .bg-jumbotron {
 
 div .jumbotron-icon {
   width: 400px;
+}
+
+@media (max-width: 991.98px) {
+  div .bg-jumbotron {
+    background-position: 50% 70%;
+  }
 }

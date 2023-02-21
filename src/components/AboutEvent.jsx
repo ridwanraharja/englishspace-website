@@ -5,19 +5,16 @@ import aboutEventimg from "../assets/img/aboutEvent.png";
 const AboutEvent = () => {
   return (
     <section id="about-event">
-      <br />
-      <br />
       <div
         className="container contain-aboutEvent p-3"
         data-aos="fade-up"
         data-aos-duration="1000"
       >
         <div className="row p-3">
-          <div className="col text-center p-3">
+          <div className="col text-center">
             <img
               src={aboutEventimg}
               alt="about-event"
-              width="300px"
               className="img-event-21day"
             />
           </div>

@@ -1,6 +1,8 @@
 import React from "react";
 import "../styles/components/Event.css";
 
+import { BiCalendar } from "react-icons/bi";
+
 // Import Swiper React components
 import { Pagination } from "swiper";
 
@@ -15,8 +17,8 @@ import "swiper/css/pagination";
 
 const Event = () => {
   return (
-    <section id="carousel">
-      <div className="container-fluid py-3 contain-event">
+    <section name="event" id="carousel">
+      <div className="mt-5  container-fluid py-3 contain-event">
         <div className="container contain-event-card py-3">
           <h4>UPCOMING EVENTS</h4>
           <div className="bars-2"></div>
@@ -24,6 +26,19 @@ const Event = () => {
             modules={[Pagination]}
             className="swiper mySwiper mt-3"
             pagination={{ clickable: true }}
+            breakpoints={{
+              1200: {
+                // width: 576,
+                slidesPerView: 3,
+              },
+              768: {
+                // width: 768,
+                slidesPerView: 2,
+              },
+              0: {
+                slidesPerView: 1,
+              },
+            }}
             spaceBetween={50}
             onSlideChange={() => console.log("slide change")}
             onSwiper={(swiper) => console.log(swiper)}
@@ -37,8 +52,7 @@ const Event = () => {
                 />
                 <div className="card-body">
                   <h5 className="card-title title-21day-carousel">
-                    <i className="fa-solid fa-calendar-days"></i> : Coming Soon
-                    (August)
+                    <BiCalendar /> : Coming Soon (August)
                   </h5>
                   <a href="#" className="btn btn-dark btn-sm fw-bold more-info">
                     More Info

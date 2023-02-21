@@ -1,6 +1,7 @@
-.pro-text {
-  font-family: "metropolis";
+.box-profile {
+  gap: 20px;
 }
+
 .line {
   width: 100%;
   height: 80px;
@@ -16,12 +17,36 @@
   margin-left: auto;
   margin-right: auto;
   position: relative;
+  border-radius: 10px;
 }
 .team h2 {
   text-transform: capitalize;
   color: #000;
-  font-family: "metropolis";
   padding: 5px;
   color: #fff;
-  font-size: 35px;
+}
+
+.h2-profile {
+  font-size: 1.8rem;
+}
+
+@media (max-width: 992px) {
+  .card-bd ul {
+    margin-top: 15px;
+  }
+  .p-vision {
+    font-size: 0.9rem;
+  }
+}
+
+@media (max-width: 768px) {
+  .h2-profile {
+    font-size: 1.6rem;
+  }
+}
+
+@media (max-width: 576px) {
+  .h2-profile {
+    font-size: 1.4rem;
+  }
 }

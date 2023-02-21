@@ -3,10 +3,13 @@ import "../styles/components/About.css";
 
 const About = () => {
   return (
-    <div className="container-about d-flex flex-column align-items-center justify-content-center">
+    <div
+      name="about"
+      className="container-about d-flex flex-column align-items-center justify-content-center"
+    >
       <div className="bg-about d-flex flex-column align-items-center justify-content-center bg-image text-center rounded text-white">
-        <h1>About Us</h1>
-        <p>
+        <h1 className="h1-about">About Us</h1>
+        <p className="p-about">
           English Space is a start up engaged in academics and self-development,
           English Space is founded for high school students by providing
           solutions to any existing learning problems, providing the best
