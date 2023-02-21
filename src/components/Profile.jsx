@@ -3,8 +3,6 @@ import React from "react";
 import "../styles/components/Profile.css";
 // images
 import Arba from "../assets/img/profile/Arba.jpg";
-import Faiz from "../assets/img/profile/Faiz.jpg";
-import Fatih from "../assets/img/profile/Fatih.jpg";
 import Faza from "../assets/img/profile/Faza.jpg";
 import Jane from "../assets/img/profile/Jane.jpg";
 import Kharisma from "../assets/img/profile/Kharisma.jpg";
