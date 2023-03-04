@@ -27,3 +27,20 @@
 .job-title {
   padding: 0 10px !important;
 }
+
+.job-title h6 {
+  font-size: 0.9rem !important;
+  font-weight: 600 !important;
+}
+
+.job-title p {
+  font-size: 0.9rem;
+}
+
+.feature h6 {
+  font-size: 0.9rem;
+}
+
+.btn-banner {
+  font-size: 0.9rem;
+}

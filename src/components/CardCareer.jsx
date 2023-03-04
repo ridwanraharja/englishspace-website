@@ -20,9 +20,12 @@ const CardCareer = (props) => {
         <MdLocationOn /> Tangerang Selatan
       </h6>
       <p>
-        <MdOutlineWork /> Internship
+        <MdOutlineWork /> -
       </p>
-      <Link to={`/careers/${props.data.url}`} className="btn btn-primary">
+      <Link
+        to={`/careers/${props.data.url}`}
+        className="btn btn-primary btn-banner"
+      >
         Apply Now!
       </Link>
     </div>

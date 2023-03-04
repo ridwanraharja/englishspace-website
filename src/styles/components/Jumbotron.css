@@ -3,7 +3,7 @@ div .bg-jumbotron {
   width: 100%;
   background-image: url("../../assets/img/jumbotron.png");
   height: 95vh;
-  background-position: 50% 70%;
+  background-position: 50% 40%;
   background-size: cover;
   background-repeat: no-repeat;
   gap: 10px;
@@ -11,6 +11,13 @@ div .bg-jumbotron {
 
 div .jumbotron-icon {
   width: 400px;
+}
+
+.btn-jumbot {
+  color: white !important;
+  background-color: #7d7e83 !important;
+  border-radius: 20px !important;
+  opacity: 0.8;
 }
 
 @media (max-width: 991.98px) {

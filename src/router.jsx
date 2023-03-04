@@ -25,36 +25,21 @@ function router() {
         </Route>
         <Route element={<CareersLayout />}>
           <Route path="/careers" element={<Careers />} />
+          <Route path="/careers/recruitment" element={<RecStaff />} />
           <Route
-            path="/careers/recruitment-staff-intern"
-            element={<RecStaff />}
-          />
-          <Route
-            path="/careers/training-and-development-staff-intern"
+            path="/careers/training-and-development"
             element={<TnDStaff />}
           />
-          <Route path="/careers/payroll-staff-intern" element={<PayStaff />} />
-          <Route path="/careers/uiux-intern" element={<Uiux />} />
-          <Route path="/careers/frontend-developer-intern" element={<FE />} />
-          <Route path="/careers/accounting-intern" element={<Account />} />
-          <Route
-            path="/careers/project-program-intern"
-            element={<ProjProg />}
-          />
-          <Route
-            path="/careers/publication-and-relation-intern"
-            element={<PubliRela />}
-          />
-          <Route path="/careers/administration-intern" element={<Adminis />} />
-          <Route
-            path="/careers/creative-marketing-intern"
-            element={<CreMar />}
-          />
-          <Route
-            path="/careers/project-marketing-intern"
-            element={<ProjMar />}
-          />
-          <Route path="/careers/creative-design-intern" element={<CreDes />} />
+          <Route path="/careers/payroll" element={<PayStaff />} />
+          <Route path="/careers/uiux" element={<Uiux />} />
+          <Route path="/careers/frontend-developer" element={<FE />} />
+          <Route path="/careers/accounting" element={<Account />} />
+          <Route path="/careers/project-and-program" element={<ProjProg />} />
+          <Route path="/careers/public-relation" element={<PubliRela />} />
+          <Route path="/careers/administration" element={<Adminis />} />
+          <Route path="/careers/social-media" element={<CreMar />} />
+          <Route path="/careers/project-marketing" element={<ProjMar />} />
+          <Route path="/careers/creative-design" element={<CreDes />} />
         </Route>
       </Routes>
     </BrowserRouter>

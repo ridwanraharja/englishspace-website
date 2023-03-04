@@ -27,11 +27,11 @@ const DetailCareerContent = (props) => {
           </p>
           <p>
             <HiBuildingOffice2 />
-            &nbsp; Technology
+            &nbsp; {props.data.department}
           </p>
           <p>
             <GiSandsOfTime />
-            &nbsp; Internship
+            &nbsp; -
           </p>
           <p>
             <MdWork />

@@ -1,10 +1,10 @@
 export const jobData = [
   {
     id: 1,
-    url: "recruitment-staff-intern",
+    url: "recruitment",
     link: "bit.ly/EnglishSpaceApplicationForm",
-    titleJob: "Recruitment Staff Intern",
-    Department: "Human Resources",
+    titleJob: "Recruitment",
+    department: "Human Resources",
     skills: ["Screening", "Negoisasi", "recruitment process"],
     qualifications: [
       "Mahasiswa/i semester 2-4",
@@ -23,10 +23,10 @@ export const jobData = [
   },
   {
     id: 2,
-    url: "training-and-development-staff-intern",
+    url: "training-and-development",
     link: "bit.ly/EnglishSpaceApplicationForm",
-    titleJob: "Training and Development Staff Intern",
-    Department: "Human Resources",
+    titleJob: "Training and Development",
+    department: "Human Resources",
     skills: ["Management", "Analysis", "Problem Solving"],
     qualifications: [
       "Mahasiswa/i semester 2-4",
@@ -45,10 +45,10 @@ export const jobData = [
   },
   {
     id: 3,
-    url: "payroll-staff-intern",
+    url: "payroll",
     link: "bit.ly/EnglishSpaceApplicationForm",
-    titleJob: "Payroll Staff Intern",
-    Department: "Human Resources",
+    titleJob: "Payroll",
+    department: "Human Resources",
     skills: ["Screening", "Negoisasi", "recruitment process"],
     qualifications: [
       "Mahasiswa/i semester 2-4",
@@ -67,10 +67,10 @@ export const jobData = [
   },
   {
     id: 4,
-    url: "uiux-intern",
+    url: "uiux",
     link: "bit.ly/EnglishSpaceApplicationForm",
-    titleJob: "UI/UX Intern",
-    Department: "Technology",
+    titleJob: "UI/UX",
+    department: "Technology",
     skills: ["Design", "Figma", "Adobe", "Detail", "Wireframe"],
     qualifications: [
       "Mahasiswa/i semester 2-4",
@@ -89,16 +89,16 @@ export const jobData = [
       "Membuat ilustrasi ide desain produk lewat alur proses maupun storyboard",
       "Merancang elemen antarmuka pengguna seperti grafis menu, tab, dan widget",
       "Mengembangkan mockup dan prototipe tampilan antarmuka untuk menggambarkan fungsi dan kinerja produk",
-      "Membuat grafis atau draf kasar untuk pemaparan kepada tim internal dan para stakeholders",
+      "Membuat grafis atau draf kasar untuk pemaparan kepada timal dan para stakeholders",
       "Penyesuaian tata letak berdasarkan umpan balik pengguna",
     ],
   },
   {
     id: 5,
-    url: "frontend-developer-intern",
+    url: "frontend-developer",
     link: "bit.ly/EnglishSpaceApplicationForm",
-    titleJob: "Frontend Developer Intern",
-    Department: "Technology",
+    titleJob: "Frontend Developer",
+    department: "Technology",
     skills: ["ReactJS", "Javascript", "Webpack", "Redux", "API"],
     qualifications: [
       "Mahasiswa/i semester 2-4",
@@ -127,10 +127,10 @@ export const jobData = [
   },
   {
     id: 6,
-    url: "accounting-intern",
+    url: "accounting",
     link: "bit.ly/EnglishSpaceApplicationForm",
-    titleJob: "Accounting Intern",
-    Department: "Finance",
+    titleJob: "Accounting",
+    department: "Finance",
     skills: ["Excel", "Laporan Keuangan", "Pencatatan", "Detail"],
     qualifications: [
       "Mahasiswa/i semester 2-4",
@@ -148,10 +148,10 @@ export const jobData = [
   },
   {
     id: 7,
-    url: "project-program-intern",
+    url: "project-and-program",
     link: "bit.ly/EnglishSpaceApplicationForm",
-    titleJob: "Project Program Intern",
-    Department: "Project",
+    titleJob: "Project and Program",
+    department: "Project",
     skills: ["Idea", "Creative", "Inovation"],
     qualifications: [
       "Mahasiswa/i semester 2-4",
@@ -168,10 +168,10 @@ export const jobData = [
   },
   {
     id: 8,
-    url: "publication-and-relation-intern",
+    url: "public-relation",
     link: "bit.ly/EnglishSpaceApplicationForm",
-    titleJob: "Publication and Relation Intern",
-    Department: "Project",
+    titleJob: "Public Relation",
+    department: "Project",
     skills: ["Developing", "Strategy", "Communication"],
     qualifications: [
       "Mahasiswa/i semester 2-4",
@@ -190,10 +190,10 @@ export const jobData = [
   },
   {
     id: 9,
-    url: "administration-intern",
+    url: "administration",
     link: "bit.ly/EnglishSpaceApplicationForm",
-    titleJob: "Administration Intern",
-    Department: "Project",
+    titleJob: "Administration",
+    department: "Project",
     skills: ["Tracking", "Pencatatan", "Laporan"],
     qualifications: [
       "Mahasiswa/i semester 2-4",
@@ -209,10 +209,10 @@ export const jobData = [
   },
   {
     id: 10,
-    url: "creative-marketing-intern",
+    url: "social-media",
     link: "bit.ly/EnglishSpaceApplicationForm",
-    titleJob: "Creative Marketing Intern",
-    Department: "Marketing",
+    titleJob: "Social Media",
+    department: "Marketing",
     skills: ["Branding", "Content Planning", "Analysis"],
     qualifications: [
       "Mahasiswa/i semester 2-4",
@@ -237,10 +237,10 @@ export const jobData = [
   },
   {
     id: 11,
-    url: "project-marketing-intern",
+    url: "project-marketing",
     link: "bit.ly/EnglishSpaceApplicationForm",
-    titleJob: "Project Marketing Intern",
-    Department: "Marketing",
+    titleJob: "Project Marketing",
+    department: "Marketing",
     skills: ["Research", "Planning", "Communication"],
     qualifications: [
       "Mahasiswa/i semester 2-4",
@@ -263,10 +263,10 @@ export const jobData = [
   },
   {
     id: 12,
-    url: "creative-design-intern",
+    url: "creative-design",
     link: "bit.ly/EnglishSpaceApplicationForm",
-    titleJob: "Creative Design Intern",
-    Department: "Marketing",
+    titleJob: "Creative Design",
+    department: "Marketing",
     skills: ["Design", "Adobe", "Creative", "Inovation"],
     qualifications: [
       "Mahasiswa/i semester 2-4",

@@ -12,16 +12,15 @@ const Jumbotron = () => {
           src={jumbotronIcon}
           alt="jumbotron-icon"
         />
-        <h1 className="lead">Develop Student Skills & Academic</h1>
-        <Link
-          className="btn btn-light btn-sm"
-          to="about"
-          smooth={true}
-          offset={-112}
-          duration={1}
+        <h1 className="lead">Developing English Learners Community</h1>
+        <a
+          href="https://bit.ly/Register21DEC"
+          target="_blank"
+          rel="noreferrer noopener"
+          className="btn btn-primary btn-jumbot px-3"
         >
-          Learn more
-        </Link>
+          Join Community
+        </a>
       </div>
     </div>
   );
