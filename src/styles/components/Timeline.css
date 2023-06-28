@@ -1,0 +1,116 @@
+/* timeline */
+
+#timeline .con-timeline .title-timeline {
+  color: #312357;
+  font-weight: 900;
+  font-style: normal;
+  font-size: 50px;
+}
+
+#timeline .con-timeline .fa-clock {
+  margin: 0px auto;
+  color: #312357;
+}
+
+/* timeline 2 */
+#timeline .con-timeline .table-timeline {
+  width: 80%;
+  padding: 50px 0;
+  margin: 50px auto;
+  position: relative;
+  overflow: hidden;
+}
+
+#timeline .con-timeline .table-timeline:before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 50%;
+  margin-left: -1px;
+  width: 2px;
+  height: 100%;
+  background: #ccd1d9;
+}
+
+#timeline .con-timeline .table-timeline .timeline-block {
+  width: -webkit-calc(50% + 8px);
+  width: -moz-calc(50% + 8px);
+  width: calc(50% + 8px);
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -moz-box;
+  display: flex;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+  -moz-box-pack: justify;
+  justify-content: space-between;
+  clear: both;
+  margin-top: 30px;
+}
+
+#timeline .con-timeline .table-timeline .timeline-block-right {
+  float: right;
+}
+
+#timeline .con-timeline .table-timeline .timeline-block-left {
+  float: left;
+  direction: rtl;
+}
+
+#timeline .con-timeline .table-timeline .marker {
+  width: 16px;
+  height: 16px;
+  border-radius: 50%;
+  border: 2px solid #f5f7fa;
+  background: #312357;
+  margin-top: 10px;
+  z-index: 99;
+}
+
+#timeline .con-timeline .table-timeline .timeline-content {
+  width: 95%;
+  padding: 0 15px;
+  color: #666;
+}
+
+#timeline .con-timeline .table-timeline .right {
+  text-align: left;
+}
+#timeline .con-timeline .table-timeline .left {
+  text-align: right;
+}
+
+#timeline .con-timeline .table-timeline .timeline-content h4 {
+  margin-top: 5px;
+  margin-bottom: 5px;
+  font-family: "metropolis";
+  color: black;
+}
+
+#timeline .con-timeline .table-timeline .timeline-content span {
+  font-family: "metropolis";
+  color: black;
+  color: #a4a4a4;
+}
+
+@media screen and (max-width: 991px) {
+  #timeline .con-timeline .table-timeline:before {
+    left: 8px;
+    width: 2px;
+  }
+  #timeline .con-timeline .table-timeline .timeline-block {
+    width: 100%;
+    margin-bottom: 30px;
+  }
+  #timeline .con-timeline .table-timeline .timeline-block-right {
+    float: none;
+  }
+
+  #timeline .con-timeline .table-timeline .timeline-block-left {
+    float: none;
+    direction: ltr;
+  }
+  #timeline .con-timeline .table-timeline .left {
+    text-align: left;
+  }
+}

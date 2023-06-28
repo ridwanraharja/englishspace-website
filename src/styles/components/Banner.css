@@ -1,0 +1,46 @@
+.gap-feature {
+  gap: 10px;
+}
+
+.feature {
+  width: 350px;
+}
+
+.feature-icon {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 5rem;
+  height: 4rem;
+  margin-bottom: 1rem;
+  font-size: 2rem;
+  color: #fff;
+  border-radius: 0.75rem;
+  background-color: #8b60ff;
+}
+
+.icon {
+  width: 100%;
+  padding: 5%;
+}
+
+.job-title {
+  padding: 0 10px !important;
+}
+
+.job-title h6 {
+  font-size: 0.9rem !important;
+  font-weight: 600 !important;
+}
+
+.job-title p {
+  font-size: 0.9rem;
+}
+
+.feature h6 {
+  font-size: 0.9rem;
+}
+
+.btn-banner {
+  font-size: 0.9rem;
+}

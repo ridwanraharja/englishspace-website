@@ -1,0 +1,85 @@
+.card-team-profile {
+  border-radius: 20px;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px,
+    rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+  width: 300px;
+  height: 310px;
+  overflow: hidden;
+  background-color: #efefef;
+}
+.card-bd {
+  background-color: #312357;
+  border-radius: 20px;
+  color: #fff;
+  box-sizing: border-box;
+  position: absolute;
+  bottom: 0px;
+  height: 110px;
+  width: 100%;
+}
+
+.card-team-profile:hover .card-bd {
+  height: 200px;
+  transition: 1s;
+  opacity: 90%;
+  width: 100%;
+}
+.card-team-profile:hover .card-bd ul {
+  opacity: 1;
+  visibility: visible;
+}
+.card-bd ul {
+  visibility: hidden;
+  padding-top: 10px;
+  font-size: 12px;
+  font-family: "metropolis";
+}
+.card-bd h6 {
+  font-weight: bold;
+  font-size: 14px;
+}
+.card-bd h5 {
+  font-weight: bold;
+  font-size: 24px;
+  text-transform: capitalize;
+}
+.pro-text h4 {
+  text-transform: capitalize;
+  font-family: "metropolis";
+}
+
+.card-team-profile img {
+  height: 200px;
+  width: 200px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 5px;
+}
+.sosial-media {
+  padding-top: -10px;
+  margin-top: -15px;
+}
+
+@media (max-width: 992px) {
+}
+
+@media (max-width: 768px) {
+}
+
+@media (max-width: 576px) {
+  .card-bd ul {
+    visibility: hidden;
+    padding-top: 10px;
+    font-size: 10px;
+    font-family: "metropolis";
+  }
+  .card-bd h6 {
+    font-weight: bold;
+    font-size: 12px;
+  }
+  .card-bd h5 {
+    font-weight: bold;
+    font-size: 18px;
+    text-transform: capitalize;
+  }
+}
